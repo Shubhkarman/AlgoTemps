@@ -1,0 +1,41 @@
+// #define ull unsigned long long
+// #define maxi 1000000007
+
+
+
+ull power(ull x, ull y)
+{
+    ull temp;
+    if( y == 0)
+    {
+         return 1;
+    }
+    temp = power(x, y/2);
+    if(temp > maxi)
+    {
+        temp = temp%maxi;
+    }
+    if (y%2 == 0)
+    {
+        ull t = temp*temp;
+        if(t > maxi)
+        {
+            t=t%maxi;
+        }
+        return t;
+    }
+    else
+    {
+        ull t = temp*temp;
+        if(t > maxi)
+        {
+            t=t%maxi;
+        }
+        t=x*t;
+        if(t > maxi)
+        {
+            t=t%maxi;
+        }
+        return t;
+    }
+}

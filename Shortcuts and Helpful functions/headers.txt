@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+#include<cstdio>
+#include<cstring>
+#include<cmath>
+#include<cstring>
+#include<chrono>
+#define endl "\n"
+#define ull unsigned long long
+#define ll long long int
+#define vi vector<int>
+#define vll vector<ll>
+#define vvi vector < vi >
+#define pii pair<int,int>
+#define mod 1000000007
+#define all(c) c.begin(),c.end()
+#define mem(a,val) memset(a,val,sizeof(a))
+#define eb emplace_back
+#define f(i,a,b) for(int i=a;i<b;i++)
+
+
+
+using namespace std;
+int main()
+{
+    ios::sync_with_stdio(false);
+    int T;
+    cin>>T;
+    while(T--)
+    {
+
+    }
+    return 0;
+}

@@ -1,0 +1,18 @@
+MULTIPLY X BY 2^k
+x<<k;
+
+DIVIDE X BY 2^k
+x>>k;
+
+
+Check if the ith bit is set in the binary form of the given number
+if( N & (1 << i) )
+
+
+1) x ^ ( x & (x-1)) : Returns the rightmost 1 in binary representation of x
+
+2) x & (-x) : Returns the rightmost 1 in binary representation of x
+
+3) x | (1 << n) : Returns the number x with the nth bit set
+
+4) x & ~(1 << n) : Returns the number x with the nth bit UNset
